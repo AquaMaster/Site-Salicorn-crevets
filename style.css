@@ -1,0 +1,350 @@
+/*style.css*/
+@font-face{
+    font-family: 'bebasNeue';
+    src: url('Police/BebasNeue.otf');
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    /*display: table;*/ 
+    background-color: rgb(101 , 186 , 153);
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    height: 100%;
+}
+
+/*CSS menu*/
+
+header
+{
+    background-image: url(Pages/images/headerImg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10%;
+}
+
+#title
+{
+    color : white;
+    width: 475px;
+    margin: auto;
+    font-family: 'bebasNeue', 'bebasregular', Arial, serif;
+    padding-top: 15px;
+    line-height: 35pt;
+    
+}
+#title h1
+{
+    margin-bottom: 0;
+    font-size: 3.5em;
+}
+#title h2
+{
+    margin-top: -1px;
+    font-size: 1.8em;    
+}
+
+/*configuration du menu*/
+#Menu
+{
+    background-color: rgb(37 , 34 , 34);
+    color: white;
+    text-align: center;
+    font-family: 'bebasNeue', 'bebasregular', Arial, serif;
+    margin: auto;
+}
+
+#Menu h2
+{
+    font-size: 1.8em;
+    display: inline-block;
+    width: 600px;
+}
+
+#Menu ul
+{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.social
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+#Menu li
+{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+
+#actus
+{
+    color: rgb(101 , 186 , 153);
+    border-bottom: 2px solid rgb(101 , 186 , 153);
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#Menu a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*configuration de la partie section*/
+section
+{
+    width: 100%;
+    height: 80%;
+}
+
+section h2, section p, footer p
+{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    font-family: 'bebasNeue', 'bebasregular', Arial, serif;
+}
+section h2
+{
+    font-size: 1.9em;
+    margin-bottom: 0; 
+}
+section p
+{
+    margin-top: 0;
+}
+
+#bloc_1, #bloc_2, #bloc_3
+{
+    width: 840px;
+    margin: auto;
+}
+#bloc_4, #bloc_5
+{
+    display: none;
+}
+
+#bloc_1 img, #bloc_2 img, #bloc_3 img
+{
+    margin-left: -4px;
+    margin-bottom: -5px;
+}
+
+/*configuration section page principale crevette et salicorne*/
+article
+{
+    width: 80%;
+    min-height: 500px;
+    display: inline-block;
+}
+article h2
+{
+    font-size: 1.9em;
+    margin-bottom: 0; 
+    color: white;
+    font-family: 'bebasNeue', 'bebasregular', Arial, serif;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#bloc_text
+{
+    max-width: 800px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.blocText
+{
+    border : 3px solid rgb(15 , 133 , 114);
+    background-color: rgb(15, 133, 114);
+    text-align: justify;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(15 , 133 , 114 , 0.8);
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.blocText img
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.text
+{
+    display: inline-block;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'bebasregular', Arial, serif;
+    vertical-align: top;
+}
+
+.button
+{
+    border-radius: 5px;
+    border-color: brown;
+    background-color: brown;
+    position: absolute;
+    text-align: center;
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    padding: 5px 5px 2px 5px;
+    text-decoration: none;
+    color:aliceblue;
+    
+}
+
+.date
+{
+    position: absolute;
+    top: -25px;
+    background-color: rgb(15, 133, 114);
+    border-radius: 10px;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+}
+article h4
+{
+    text-decoration: underline;
+    color: aliceblue;
+    font-family: 'bebasregular', Arial, serif;
+}
+
+
+/*creation de aside*/
+
+aside
+{
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    right: 10px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    
+}
+
+aside li
+{
+    color:black;
+}
+
+aside h3:first-child
+{
+    border-bottom: 3px grey solid;
+}
+
+#recentArticle
+{
+    border-bottom: 3px grey solid;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+aside h3
+{
+    text-decoration: underline;
+    font-family: 'bebasNeue', 'bebasregular', Arial, serif;
+    text-align: center;
+    line-height: 30pt;
+    color: black;
+}
+
+#recentArticle li
+{
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+
+
+/*Code Css de la partie pied de page*/
+footer 
+{
+    background-image: url(Pages/images/footerImg.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contact
+{
+    
+    text-decoration: none;
+}
+#contact p
+{
+    font-family: 'bebasNeue', 'bebasregular', Arial, serif;
+    color: white;
+    font-size: 2em;
+    padding-top: 45px;
+}
+footer :last-child
+{
+    font-size: 0.8em;
+    width: 500px;
+}
+
+@media all and (min-width : 1500px)
+{
+    header
+{
+    background-image: url(images/headerImg1.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+}    
+}
+
+
+
+@media all and (max-width : 1160px)
+{
+    #Menu h2
+    {
+        display: none;
+    }
+}
+
+@media all and (max-width : 860px)
+{
+    #bloc_1, #bloc_2, #bloc_3
+    {
+        display: none;
+    }
+    
+    #bloc_4, #bloc_5
+    {
+        display: block;
+        width: 420px;
+        margin: auto;
+    }
+}
