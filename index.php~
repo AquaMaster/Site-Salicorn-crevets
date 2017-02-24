@@ -24,9 +24,12 @@
             <p> RENCONTRES - PORTRAITS - PRODUITS - SAVEURS </p>
             <div id="mosaique">
                 <div id="bloc_1">
-			<a href="Pages/PageCrevetteActu1.html"><img src="Pages/images/mosaiqueImg0.png" alt="Crevettes des marais" id="0" /></a>
-			
-			
+			<div id="img_0">
+				 <a href="Pages/PageCrevetteActu1.html"> 
+					<img src="Pages/images/mosaiqueImg0.png" alt= "crevette imperiale des marais charentais" id="0"/>
+				<p> Actualités </p>
+				</a>
+			</div>
 
 		 <a href="Pages/PageRecette3.html"> <img src="Pages/images/mosaiqueImg1.png" alt="Recette Salicorne des Marais Charentais" id="1" /></a>
                         <a href="Pages/PageCrevetteActu2.html"> <img src="Pages/images/mosaiqueImg2.png" alt="Producteurs Crevettes ImpÃ©riales des marais Charentais" id="2" /> </a>

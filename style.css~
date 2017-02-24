@@ -136,8 +136,19 @@ section p
 
 #bloc_1, #bloc_2, #bloc_3
 {
+    display : absolute;
     width: 840px;
     margin: auto;
+}
+#img_0
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+#img_0 p
+{
+	position: absolute;		
 }
 
 #bloc_4, #bloc_5
